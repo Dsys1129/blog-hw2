@@ -44,7 +44,6 @@ public class AuthFilter implements Filter {
             // 토큰 확인
             log.info(httpServletRequest.getHeader(JwtProvider.AUTHORIZATION_HEADER));
 
-//            String tokenValue = jwtUtil.getTokenFromRequest(httpServletRequest);
             String tokenValue = httpServletRequest.getHeader(JwtProvider.AUTHORIZATION_HEADER);
 
             if (StringUtils.hasText(tokenValue)) { // 토큰이 존재하면 검증 시작
