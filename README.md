@@ -1,4 +1,6 @@
 ﻿# blog-h2
+# 팀원
+김재익, 신윤상
 
 ### ERD
 ![hw2_erd](https://github.com/Dsys1129/blog-hw2/assets/100118375/34ef8aee-75da-4e0d-895e-d353bc0ffb73)
